@@ -1,0 +1,49 @@
+.schedule{
+  display:flex;
+  flex-direction:row;
+  margin:auto;
+  align:center;
+  border: 1px solid #ccc;
+}
+.times {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.day{
+  display:flex;
+  flex-direction:column;
+  width: 200px;
+  padding-left:5px;
+  padding-right: 5px;
+}
+.hour {
+  padding: 1px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.available{
+	border:1px solid #ccc;
+	width:100%;
+	height:100%;
+	background:#E1F5FE;
+}
+.unavailable{
+	border:1px solid #ccc;
+	width:100%;
+	height:100%;
+	background:#FA8072;
+}
+.available .button {
+	width:100%;
+	text-align:center;
+	border:none;
+	background : #E1F5FE;
+}
+.unavailable .button {
+	width:100%;
+	text-align:center;
+	border:none;
+	background : #FA8072;
+}
